@@ -40,4 +40,6 @@
     /*none active link elements are white*/
     }
     }
-    
+    body {
+        min-width: 640px;
+    }
