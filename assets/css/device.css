@@ -1,0 +1,43 @@
+@media screen and (max-width: 481px) {
+    #main, #subnav {
+    float: left;
+    padding:0;
+    width: 94%;
+    margin: 3%;
+    /*stack the 2 text boxes*/
+    /*3% +94% +3=100% full width*/
+    /*3% margin spaces on all sides */
+    }
+    #subnav dt{ /*reset padding and margin-top to 0*/
+    padding: 0;
+    margin-top:0;
+    }
+    #subnav {
+    border-right: 1px dotted #aaa;
+    border-bottom: 1px dotted #aaa;
+    /*complete the table border */
+    }
+    #logo {
+    font-size: 45px;
+    }
+    #menu{
+    text-align: center;
+    /*navigation links to the center*/
+    padding:0;
+    }
+    #menu li{
+    /*make margin and padding spaces between and around the links*/
+    display: inline-block;
+    margin: 1.25% .5% 1.25% .5%;
+    border-left: 0;
+    padding: 1%;
+    border: 1px solid white;
+    /*draw white border around the links*/
+    }
+    #menu li a {
+    color: white;
+    text-decoration: none;
+    /*none active link elements are white*/
+    }
+    }
+    
